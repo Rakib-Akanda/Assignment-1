@@ -1,12 +1,18 @@
 /* header related styles */
-.main-header { 
-    
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+.main-header {
+
     width: 100%;
-    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url('/images/Banner-Image.png');
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('/images/Banner-Image.png');
     background-position: center;
     background-size: cover;
 }
-.hny {     
+
+.hny {
     color: rgb(249, 249, 249);
     font-family: 'Merriweather', serif;
     text-align: center;
@@ -14,7 +20,8 @@
     font-weight: 400;
     padding: 176px 530px 0px 530px;
 }
-.new-party {    
+
+.new-party {
     color: rgb(249, 249, 249);
     font-size: 72px;
     font-weight: 900;
@@ -23,5 +30,35 @@
     text-align: center;
 }
 
+/* main section related styles */
+/* section-1 */
+.section-1 {
+    text-align: center;
+}
 
+.discount {
+    color: #F00;
+    font-family: 'inter', serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin:120px 0 48px 0 ;
+}
 
+.paragraph-1 {
+    color: #F00;
+    font-family: 'inter', serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.categories-1 {
+    color: #070211;
+    font-family:'inter',serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+.nypng{
+    margin-top:48px;
+}
