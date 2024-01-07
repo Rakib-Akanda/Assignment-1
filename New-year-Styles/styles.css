@@ -1,0 +1,27 @@
+/* header related styles */
+.main-header { 
+    
+    width: 100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url('/images/Banner-Image.png');
+    background-position: center;
+    background-size: cover;
+}
+.hny {     
+    color: rgb(249, 249, 249);
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 176px 530px 0px 530px;
+}
+.new-party {    
+    color: rgb(249, 249, 249);
+    font-size: 72px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    padding: 0px 344px 177px 344px;
+    text-align: center;
+}
+
+
+
