@@ -309,6 +309,77 @@ body {
     padding-left: 30px;
     padding-top: 20px;
 }
+
 .redgirl-1 {
     padding: 20px 0px 224.5px 60px;
 }
+
+/* section-6  */
+.section-6 {
+    width: 1320px;
+    height: 1100px;
+    margin: 350px auto 0;
+    background-color: #ffffff;
+}
+ 
+.best-gift-3 {
+    color: #F00;
+    font-family: 'inter', serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.product-title {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-bottom: 0;
+
+}
+
+.paragraph-6 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family:'inter',serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.rac-1{margin: 46px 11.5px 0 0;  border: 2px solid #ffffff;} /*48px 19.5px 0 0*/
+.rac-2{margin: 46px 11.5px 0 0; border: 2px solid #ffffff;}
+.rac-3{margin: 46px 0 0 0; border: 2px solid #ffffff;}
+.rac-4{margin: 11.5px 11.5px 0 0; border: 2px solid #ffffff;}
+.rac-5{margin: 11.5px 11.5px 0 0; border: 2px solid #ffffff;}
+.rac-6{margin: 11.5px 0 0 0; border: 2px solid #ffffff;}
+/* hover effect */
+.rac-1:hover{
+    border-color:#690ddaee;
+    border-radius: 17px;
+    transform: scale(1.02);}
+.rac-2:hover{
+    border-color:#690ddaee;
+    border-radius: 18px;
+    transform: scale(1.02);}
+.rac-3:hover{
+    border-color:#690ddaee;
+    border-radius: 18px;
+    transform: scale(1.02);}
+.rac-4:hover{
+    border-color:#690ddaee;
+    border-radius: 18px;
+    transform: scale(1.02);}
+.rac-5:hover{
+    border-color:#690ddaee;
+    border-radius: 18px;
+    transform: scale(1.02);}
+.rac-6:hover{
+    border-color:#690ddaee;
+    border-radius: 18px;
+    transform: scale(1.02);}
+
+
