@@ -129,7 +129,7 @@ body {
 .banner-content {
     background-image: linear-gradient(to right,
             rgba(0, 0, 0, .9),
-            rgba(0, 0, 0, .5),
+            rgba(0, 0, 0, .7),
             rgba(0, 0, 0, .3),
             rgba(0, 0, 0, 0));
     border-radius: 16px;
@@ -234,7 +234,7 @@ body {
     background-position: center;
 }
 
-.nyo-column-2{
+.nyo-column-2 {
     text-align: left;
 }
 
@@ -255,6 +255,60 @@ body {
     padding: 16px 0 0 118px;
 }
 
-.happy-png{
-    padding: 40px 0 0 118px;
+.happy-png {
+    padding: 10px 0 0 118px;
+}
+
+/* section-5 */
+
+.section-5 {
+    width: 1320px;
+    height: 728px;
+    margin: 120px auto 0;
+
+}
+
+.holidays-50 {
+    text-align-last: center;
+    line-height: 10px;
+}
+
+.what-head {
+    color: #070211;
+    font-family: 'inter', serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.holidayss-title {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holidays {
+    color: #F00;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.Celebrate-p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'inter', serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.gift-1 {
+    background-image: url('../images/Rectangle-2.png');
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.redgirl-1 {
+    padding: 20px 0px 224.5px 60px;
 }
