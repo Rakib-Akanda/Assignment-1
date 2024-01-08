@@ -1,15 +1,32 @@
 /* header related styles */
+
 body {
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
 
 .main-header {
+    text-align: center;
+    background-image: url('/images/Banner-Image.png');
+    width: 1320px;
+    height: 600px;
+    margin: 50px 100px 0;
+    background-repeat: no-repeat;
 
-    width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('/images/Banner-Image.png');
-    background-position: center;
-    background-size: cover;
+
+}
+
+.header-content {
+    background-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, .9),
+            rgba(0, 0, 0, .7),
+            rgba(0, 0, 0, .4),
+            rgba(0, 0, 0, 0));
+    border-radius: 26px;
+
+
+
+
 }
 
 .hny {
@@ -26,14 +43,15 @@ body {
     font-size: 72px;
     font-weight: 900;
     font-family: 'Merriweather', serif;
-    padding: 0px 344px 177px 344px;
-    text-align: center;
+    padding: 0px 344px 155px 344px;
 }
 
 /* main section related styles */
 /* section-1 */
 .section-1 {
     text-align: center;
+    margin: 0 400px 0px;
+
 }
 
 .discount {
@@ -41,7 +59,7 @@ body {
     font-family: 'inter', serif;
     font-size: 88px;
     font-weight: 700;
-    margin:120px 0 48px 0 ;
+    margin: 120px 0 48px 0;
 }
 
 .paragraph-1 {
@@ -53,12 +71,78 @@ body {
 
 .categories-1 {
     color: #070211;
-    font-family:'inter',serif;
+    font-family: 'inter', serif;
     font-size: 48px;
     font-weight: 700;
     margin-top: 16px;
-    margin-bottom: 0;
 }
-.nypng{
-    margin-top:48px;
+
+.nypng {
+    margin-top: 48px;
+    margin-bottom: 120px;
 }
+
+/* section-2 */
+.section-2 {
+    background-image: url('/images/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin: 50px 100px 120px;
+    position: relative;
+}
+
+.section-2-title {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding: 126px 552px 0px 125px;
+}
+
+.section-2-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'inter', serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 497px 0px 126px;
+}
+
+.btn-1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'inter', serif;
+    font-size: 20px;
+    font-weight: 700;
+    width: auto;
+    margin: 48px 1059px 82px 158px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+button:hover {
+    background-color: #4f4d52cc;
+}
+
+.section-2> .year-2024 {
+
+    width: 319.83px;
+    height: 464.662px;
+    margin: 68px 138px 67px 863px;
+    position: absolute;
+}
+.banner-content {
+    background-image: linear-gradient(to right,
+            rgba(0, 0, 0, .9),
+            rgba(0, 0, 0, .5),
+            rgba(0, 0, 0, .3),
+            rgba(0, 0, 0, 0));
+    border-radius: 16px;
+    width: fit-content;
+
+}
+
+
