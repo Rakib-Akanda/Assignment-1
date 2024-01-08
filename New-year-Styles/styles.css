@@ -11,7 +11,7 @@ body {
     width: 1320px;
     height: 600px;
     background-repeat: no-repeat;
-    margin: 50px 100px 0;
+    margin: 50px auto 0;
 }
 
 .header-content {
@@ -48,7 +48,7 @@ body {
 /* section-1 */
 .section-1 {
     text-align: center;
-    margin: 50px 100px 0;
+    margin: 50px auto 0;
 
 }
 
@@ -86,7 +86,7 @@ body {
     width: 1320px;
     height: 600px;
     background-repeat: no-repeat;
-    margin: 50px 100px 120px;
+    margin: 50px auto 120px;
 }
 
 .section-2-title {
@@ -117,6 +117,7 @@ body {
     background-color: rgba(255, 255, 255, 0);
     border: none;
 }
+
 .section-2>.year-2024 {
 
     width: 319.83px;
@@ -144,7 +145,7 @@ body {
     width: 1320px;
     height: 482px;
     border-radius: 15px;
-    margin: 50px 100px 120px;
+    margin: 50px auto 120px;
 }
 
 .section-3-content {
@@ -164,22 +165,95 @@ body {
 
 .btn-join-now {
     color: #FFF;
-    font-family:'inter',serif;
+    font-family: 'inter', serif;
     font-size: 20px;
     border: none;
     background: #F00;
     border-radius: 8px;
     padding: 17px 33px;
 }
+
 .btn-join-now-1 {
     color: #FFF;
-    font-family:'inter',serif;
+    font-family: 'inter', serif;
     font-size: 20px;
     border: none;
     background: #F00;
     border-radius: 8px;
     padding: 17px 33px;
-    margin: 40px 0 140px 158px; 
+    margin: 40px 0 140px 158px;
+}
+
+/* section-4 */
+.section-4 {
+    background-color: #ffffff;
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    margin: 0px auto 120px;
+}
+
+.nyo-column {
+    text-align: left;
+}
+
+.title-nbo {
+    color: #F00;
+    font-family: 'inter', serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 104px 0 0 0;
+}
+
+.coming-soon {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 16px 0 0 0;
+}
+
+.ring-p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'inter', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 22px 0 0 0;
+}
+
+.nyo-picture {
+    background-image: url('/images/Ellipse\ 1.png');
+    background-repeat: no-repeat;
+    border: 15px solid #F00;
+    width: 364px;
+    height: 290px;
+    padding: 50px;
+    border-radius: 100%;
+    background-position: center;
 }
 
 
+.nyo-column-2{
+    text-align: left;
+}
+.nyo-2024 {
+    color: #F00;
+    font-family: 'inter', serif;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 112px 0 0 118px;
+}
+
+.paragraph-2 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'inter', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 16px 0 0 118px;
+}
+.happy-png{
+    padding: 40px 0 0 118px;
+}
