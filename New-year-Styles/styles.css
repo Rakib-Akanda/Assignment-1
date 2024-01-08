@@ -10,10 +10,8 @@ body {
     background-image: url('/images/Banner-Image.png');
     width: 1320px;
     height: 600px;
-    margin: 50px 100px 0;
     background-repeat: no-repeat;
-
-
+    margin: 50px 100px 0;
 }
 
 .header-content {
@@ -50,7 +48,7 @@ body {
 /* section-1 */
 .section-1 {
     text-align: center;
-    margin: 0 400px 0px;
+    margin: 50px 100px 0;
 
 }
 
@@ -89,7 +87,6 @@ body {
     height: 600px;
     background-repeat: no-repeat;
     margin: 50px 100px 120px;
-    position: relative;
 }
 
 .section-2-title {
@@ -113,27 +110,21 @@ body {
 
 .btn-1 {
     color: #FFF;
-    text-align: center;
     font-family: 'inter', serif;
     font-size: 20px;
     font-weight: 700;
-    width: auto;
-    margin: 48px 1059px 82px 158px;
+    margin: 48px 0 0 158px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
 }
-
-button:hover {
-    background-color: #4f4d52cc;
-}
-
-.section-2> .year-2024 {
+.section-2>.year-2024 {
 
     width: 319.83px;
     height: 464.662px;
     margin: 68px 138px 67px 863px;
     position: absolute;
 }
+
 .banner-content {
     background-image: linear-gradient(to right,
             rgba(0, 0, 0, .9),
@@ -141,8 +132,54 @@ button:hover {
             rgba(0, 0, 0, .3),
             rgba(0, 0, 0, 0));
     border-radius: 16px;
-    width: fit-content;
+    width: 1320px;
+    height: 600px;
+}
 
+/* section-3 */
+.section-3 {
+    background-image: linear-gradient(180deg,
+            rgba(255, 0, 0, 0.10) 0%,
+            rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    border-radius: 15px;
+    margin: 50px 100px 120px;
+}
+
+.section-3-content {
+    color: #070211;
+    text-align: center;
+    font-family: 'inter', serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 50px;
+    text-transform: capitalize;
+    padding: 100px 0 385px;
+}
+
+.pdt {
+    color: #F00;
+}
+
+.btn-join-now {
+    color: #FFF;
+    font-family:'inter',serif;
+    font-size: 20px;
+    border: none;
+    background: #F00;
+    border-radius: 8px;
+    padding: 17px 33px;
+}
+.btn-join-now-1 {
+    color: #FFF;
+    font-family:'inter',serif;
+    font-size: 20px;
+    border: none;
+    background: #F00;
+    border-radius: 8px;
+    padding: 17px 33px;
+    margin: 40px 0 140px 158px; 
 }
 
 
