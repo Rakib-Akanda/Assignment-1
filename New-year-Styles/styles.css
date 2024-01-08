@@ -234,10 +234,10 @@ body {
     background-position: center;
 }
 
-
 .nyo-column-2{
     text-align: left;
 }
+
 .nyo-2024 {
     color: #F00;
     font-family: 'inter', serif;
@@ -254,6 +254,7 @@ body {
     line-height: 32px;
     padding: 16px 0 0 118px;
 }
+
 .happy-png{
     padding: 40px 0 0 118px;
 }
