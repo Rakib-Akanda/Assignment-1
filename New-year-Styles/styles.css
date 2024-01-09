@@ -306,10 +306,18 @@ body {
     background-position: 0 100%;
     padding-left: 30px;
     padding-top: 20px;
+    position: relative;
 }
 
 .redgirl-1 {
     padding: 20px 0px 224.5px 60px;
+}
+.discount-5{
+    position: absolute;
+    top:0;
+    right:0;
+    padding: 130px 285px 0 0;
+
 }
 
 /* section-6  */
