@@ -263,9 +263,7 @@ body {
 
 .section-5 {
     width: 1320px;
-    height: 728px;
     margin: 120px auto 0;
-
 }
 
 .holidays-50 {
@@ -317,7 +315,6 @@ body {
 /* section-6  */
 .section-6 {
     width: 1320px;
-    height: 1100px;
     margin: 350px auto 0;
     background-color: #ffffff;
 }
@@ -356,7 +353,6 @@ body {
     border: 2px solid #ffffff;
 }
 
-/*48px 19.5px 0 0*/
 .rac-2 {
     margin: 46px 11.5px 0 0;
     border: 2px solid #ffffff;
@@ -384,39 +380,51 @@ body {
 
 /* hover effect */
 .rac-1:hover {
-    border-color: #690ddaee;
-    border-radius: 17px;
-    transform: scale(1.02);
+    box-shadow:0px 0px 19px #000;
+    transition:300ms ease-out ;
+    border-radius: 20px;
+    transform: scale(1.01);
+   
 }
 
 .rac-2:hover {
-    border-color: #690ddaee;
-    border-radius: 18px;
+    box-shadow:0px 0px 19px #000;
+    transition:300ms ease-out ;
+    border-radius: 20px;
     transform: scale(1.02);
+    transition:300ms ease-out ;
 }
 
 .rac-3:hover {
-    border-color: #690ddaee;
-    border-radius: 18px;
+    box-shadow:0px 0px 19px #000;
+    transition:300ms ease-out ;
+    border-radius: 20px;
     transform: scale(1.02);
+    transition:300ms ease-out ;
 }
 
 .rac-4:hover {
-    border-color: #690ddaee;
-    border-radius: 18px;
+    box-shadow:0px 0px 19px #000;
+    transition:300ms ease-out ;
+    border-radius: 20px;
     transform: scale(1.02);
+    transition:300ms ease-out ;
 }
 
 .rac-5:hover {
-    border-color: #690ddaee;
-    border-radius: 18px;
+    box-shadow:0px 0px 19px #000;
+    transition:300ms ease-out ;
+    border-radius: 20px;
     transform: scale(1.02);
+    transition:300ms ease-out ;
 }
 
 .rac-6:hover {
-    border-color: #690ddaee;
-    border-radius: 18px;
+    box-shadow:0px 0px 19px #000;
+    transition:300ms ease-out ;
+    border-radius: 20px;
     transform: scale(1.02);
+    transition:300ms ease-out ;
 }
 
 /* section-7 */
@@ -465,7 +473,7 @@ body {
 
 .email {
     padding: 25px 265px 25px 30px;
-    border:none;
+    border: none;
     border-radius: 50px 0 0 50px;
     font-size: 18px;
     font-weight: 400;
@@ -480,4 +488,96 @@ body {
     background-color: #F00;
     padding: 24px 56px;
     border-radius: 0 50px 50px 0;
+}
+
+/* footer section related styles */
+.footer-container {
+    background-color: #070211;
+    width: 1500px;
+    margin: 120px auto 0;
+}
+
+/* text contact info  */
+.address-main {
+    display: flex;
+    width: 1320px;
+}
+
+.address-text {
+    color: #FFF;
+    font-family: 'inter', serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 115px 0 0 140px;
+}
+
+.image-icon {
+    line-height: 40px;
+    padding: 140px 0 0 540px;
+}
+
+.address-number {
+    color: #FFF;
+    font-family: 'inter', serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 7px;
+}
+
+.address-web {
+    color: #FFF;
+    font-family: 'inter', serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.contact-info {
+    width: auto;
+    line-height: 0;
+    padding: 125px 0 0 16px;
+}
+
+.hr-1 {
+    width: 1320px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* social media icon section */
+
+.fb {
+    padding: 48px 0 0 580px;
+}
+
+.x {
+    padding: 48px 0 0 24px;
+}
+
+.ins {
+    padding: 48px 0 0 24px;
+}
+
+.linkd {
+    padding: 48px 0 0 24px;
+}
+
+.hr-2 {
+    width: 1320px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-top: 48px;
+}
+
+.last-div {
+    width: 1320px;
+    color: #FFF;
+    font-family:'inter',serif;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    /* padding-bottom: 120px; */
+    margin: 0px auto 0;
+    padding: 30px 0 40px;
+    gap: 880px;
 }
